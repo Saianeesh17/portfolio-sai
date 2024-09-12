@@ -21,8 +21,8 @@ const About = () => {
                   LET ME <span className="yellow"> INTRODUCE </span> MYSELF
                 </h1>
                 <p className="home-about-body">
-                 Hi, my name is <span className="yellow">Md Abu Bakkar Siddiqe Sajib </span>
-                 and I'm from <span className="yellow"> Dhaka, Bangladesh.</span>
+                 Hi, my name is <span className="yellow">Saianeesh Vinmani </span>
+                 and I'm from <span className="yellow"> Calgary, Alberta. </span>
                 <br />
                 <br />
                 I recently graduated with a Bachelor's degree in Computer Science and Engineering in 2021.
@@ -77,7 +77,7 @@ const About = () => {
                 <ul className="home-about-social-links">
                   <li className="social-icons">
                     <a
-                      href="https://github.com/19sajib"
+                      href="https://github.com/Saianeesh17"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
