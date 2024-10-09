@@ -24,13 +24,13 @@ const Projects = () => {
             <ProjectCard
               imgPath={lift}
               isBlog={false}
-              title="Hand Synth"
-              description="This online ride-sharing platform boasts a responsive front-end design, complete with an admin panel built using React and Material-UI. With the integration of Google Maps API, users can easily access directions on the map. The platform allows for full CURD functionality on profiles and posts, and users can confirm or cancel a ride from a post and message each other after confirmation. Additionally, users can easily reset their password. The back-end is powered by a Node Express server and utilizes MongoDB for the database management."
-              ghLink="https://github.com/19sajib/lift-buddy"
+              title="GloveBoard"
+              description="This project aims to create a tangible user interface where a user can provide physical input via a glove to produce sounds through a buzzer. Each finger is programmed to play a different note. This is made possible by photoresistors being attached to the fingertips of each finger slot on the glove."
+              ghLink="https://github.com/Saianeesh17/Arduino_GloveBoard"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={project}
               isBlog={false}
@@ -79,7 +79,7 @@ const Projects = () => {
               description="Solidity Kickstart is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It includes all the functionality of a kickstart platform, enabling users to interact with their Metamask wallet, transfer Ethereum and participate in kickstart campaigns."
               ghLink="https://github.com/19sajib/Solidity-Kickstart"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
