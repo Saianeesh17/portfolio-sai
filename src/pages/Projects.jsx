@@ -5,6 +5,7 @@ import Particle from "../components/Particle";
 import pg from "../assets/projects/pg.png";
 import project from "../assets/projects/project.jpeg";
 import lift from "../assets/projects/lift.png";
+import gvb from "../assets/GloveBoardImage.png";
 import krypto from "../assets/projects/krypto.png";
 import kickstart from "../assets/projects/kickstart.png";
 
@@ -22,7 +23,7 @@ const Projects = () => {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={lift}
+              imgPath={gvb}
               isBlog={false}
               title="GloveBoard"
               description="This project aims to create a tangible user interface where a user can provide physical input via a glove to produce sounds through a buzzer. Each finger is programmed to play a different note. This is made possible by photoresistors being attached to the fingertips of each finger slot on the glove. More details can be found on the github README file corresponding to the link below."
