@@ -25,7 +25,7 @@ const About = () => {
                  and I'm from <span className="yellow"> Calgary, Alberta. </span>
                 <br />
                 <br />
-                I recently graduated with a Bachelor's degree in Computer Science and Engineering in 2021.
+                I will graduate with a bachelors in computer science degree from the University of Calgary in 2024.
                 <br />
                 <br />
                   As a
