@@ -57,7 +57,7 @@ const ProjectCard = (props) => {
         </Button>
         {"\n"}
         {"\n"}
-
+          
         {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
 
         {!props.isBlog && props.demoLink && (
@@ -80,6 +80,7 @@ const ProjectCard = (props) => {
             {"Demo"}
           </Button>
         )}
+        
       </Card.Body>
     </Card>
   );

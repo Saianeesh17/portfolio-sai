@@ -25,7 +25,7 @@ const Projects = () => {
               imgPath={lift}
               isBlog={false}
               title="GloveBoard"
-              description="This project aims to create a tangible user interface where a user can provide physical input via a glove to produce sounds through a buzzer. Each finger is programmed to play a different note. This is made possible by photoresistors being attached to the fingertips of each finger slot on the glove."
+              description="This project aims to create a tangible user interface where a user can provide physical input via a glove to produce sounds through a buzzer. Each finger is programmed to play a different note. This is made possible by photoresistors being attached to the fingertips of each finger slot on the glove. More details can be found on the github README file corresponding to the link below."
               ghLink="https://github.com/Saianeesh17/Arduino_GloveBoard"
             />
           </Col>
