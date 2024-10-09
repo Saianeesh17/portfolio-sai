@@ -55,6 +55,24 @@ const ProjectCard = (props) => {
           <BsGithub /> &nbsp;
           {props.isBlog ? "Blog" : "GitHub"}
         </Button>
+        <Button
+          variant="primary"
+          href={props.videoLink}
+          target="_blank"
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            alignContent: "flex-end",
+            textAlign: "center",
+            position: "relative",
+            bottom: "0px",
+          }}
+        >
+          {/* <BsGithub /> &nbsp;
+          {props.isBlog ? "Blog" : "GitHub"} */}
+          <h1 style={{ fontSize: "16px" }}>Video Link</h1>
+        </Button>
         {"\n"}
         {"\n"}
           
