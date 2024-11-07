@@ -23,7 +23,7 @@ const Projects = () => {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={gvb}
               isBlog={false}
@@ -32,7 +32,7 @@ const Projects = () => {
               ghLink="https://github.com/Saianeesh17/Arduino_GloveBoard"
               videoLink="https://drive.google.com/file/d/1ZrXhJuVRNSGk9bU3z2c4ip6xujIdlP3S/view?usp=drive_link"
             />
-          </Col>
+          </Col> */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={spt}
