@@ -51,6 +51,7 @@ const ProjectCard = (props) => {
             style={{
               borderRadius: "10px",
               marginBottom: "10px",
+              maxHeight: "200px" // Adjust the maximum height as needed
             }}
           >
             <source src={props.videoPath} type="video/mp4" />
@@ -63,6 +64,7 @@ const ProjectCard = (props) => {
             style={{
               borderRadius: "10px",
               marginBottom: "10px",
+              maxHeight: "200px" // Adjust the maximum height as needed
             }}
           >
             <source src={props.videoPath2} type="video/mp4" />
