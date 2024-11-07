@@ -10,6 +10,7 @@ import spt from "../assets/soccerPlotterThumbnail.png";
 import krypto from "../assets/projects/krypto.png";
 import kickstart from "../assets/projects/kickstart.png";
 import soccerPlotterVideo from "../assets/IMG_4202.mp4";
+import soccerPlotterDesign from "../assets/IMG_4175.mp4";
 
 const Projects = () => {
   return (
@@ -42,6 +43,7 @@ const Projects = () => {
               ghLink="https://github.com/Saianeesh17/Arduino_soccer_plotter"
               videoLink="https://drive.google.com/file/d/1gruD80WAGN8eXJEs5bCQIS3U1cwoUDyR/view?usp=sharing"
               videoPath = {soccerPlotterVideo}
+              videoPath2 = {soccerPlotterDesign}
             />
           </Col>
 

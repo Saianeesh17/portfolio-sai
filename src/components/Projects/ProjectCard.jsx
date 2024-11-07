@@ -56,6 +56,18 @@ const ProjectCard = (props) => {
             <source src={props.videoPath} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
+          <video
+            width="100%"
+            height="auto"
+            controls
+            style={{
+              borderRadius: "10px",
+              marginBottom: "10px",
+            }}
+          >
+            <source src={props.videoPath2} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
 
         <Button
