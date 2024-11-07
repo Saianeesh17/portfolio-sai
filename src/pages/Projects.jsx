@@ -39,7 +39,7 @@ const Projects = () => {
               isBlog={false}
               title="Soccer Plotter"
               description="This project aims to create a plotting device which plots the ball position during soccer-attacks using x,y coordinates of the ball. The user can select which attack they want to represent using a python program and it will be displayed on the arduino. The parts for this project are 3d printed. More details including the circuit diagram and important links can be found on the github README file corresponding to the link below."
-              ghLink="https://github.com/Saianeesh17/Arduino_GloveBoard"
+              ghLink="https://github.com/Saianeesh17/Arduino_soccer_plotter"
               videoLink="https://drive.google.com/file/d/1gruD80WAGN8eXJEs5bCQIS3U1cwoUDyR/view?usp=sharing"
               videoPath = {soccerPlotterVideo}
             />
