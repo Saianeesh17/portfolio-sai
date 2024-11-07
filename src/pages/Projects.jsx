@@ -6,8 +6,10 @@ import pg from "../assets/projects/pg.png";
 import project from "../assets/projects/project.jpeg";
 import lift from "../assets/projects/lift.png";
 import gvb from "../assets/GloveBoardImage.png";
+import spt from "../assets/soccerPlotterThumbnail.png";
 import krypto from "../assets/projects/krypto.png";
 import kickstart from "../assets/projects/kickstart.png";
+import soccerPlotterVideo from "../assets/IMG_4202.mp4";
 
 const Projects = () => {
   return (
@@ -29,6 +31,17 @@ const Projects = () => {
               description="This project aims to create a tangible user interface where a user can provide physical input via a glove to produce sounds through a buzzer. Each finger is programmed to play a different note. This is made possible by photoresistors being attached to the fingertips of each finger slot on the glove. More details can be found on the github README file corresponding to the link below."
               ghLink="https://github.com/Saianeesh17/Arduino_GloveBoard"
               videoLink="https://drive.google.com/file/d/1ZrXhJuVRNSGk9bU3z2c4ip6xujIdlP3S/view?usp=drive_link"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={spt}
+              isBlog={false}
+              title="Soccer Plotter"
+              description="This project aims to create a plotting device which plots the ball position during soccer-attacks using x,y coordinates of the ball. The user can select which attack they want to represent using a python program and it will be displayed on the arduino. The parts for this project are 3d printed. More details including the circuit diagram and important links can be found on the github README file corresponding to the link below."
+              ghLink="https://github.com/Saianeesh17/Arduino_GloveBoard"
+              videoLink="https://drive.google.com/file/d/1gruD80WAGN8eXJEs5bCQIS3U1cwoUDyR/view?usp=sharing"
+              videoPath = {soccerPlotterVideo}
             />
           </Col>
 

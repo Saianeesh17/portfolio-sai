@@ -4,6 +4,9 @@ import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 
+// Assuming the video is in src/assets/videos/
+// const videoPath = require('../../assets/IMG_4202.mp4');
+
 const ProjectCard = (props) => {
   return (
     <Card
@@ -35,9 +38,26 @@ const ProjectCard = (props) => {
         }}
       >
         <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify",fontSize:"15px" }}>
+        <Card.Text style={{ textAlign: "justify", fontSize: "15px" }}>
           {props.description}
         </Card.Text>
+
+        {/* Embed Video from assets folder */}
+        <div style={{ marginBottom: "10px" }}>
+          <video
+            width="100%"
+            height="auto"
+            controls
+            style={{
+              borderRadius: "10px",
+              marginBottom: "10px",
+            }}
+          >
+            <source src={props.videoPath} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
         <Button
           variant="primary"
           href={props.ghLink}
@@ -69,15 +89,12 @@ const ProjectCard = (props) => {
             bottom: "0px",
           }}
         >
-          {/* <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"} */}
           <h1 style={{ fontSize: "16px" }}>Video Link</h1>
         </Button>
         {"\n"}
         {"\n"}
-          
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
 
+        {/* If the component contains Demo link and it's not a Blog, render the Demo button */}
         {!props.isBlog && props.demoLink && (
           <Button
             variant="primary"
@@ -94,13 +111,12 @@ const ProjectCard = (props) => {
               bottom: "0px",
             }}
           >
-            <CgWebsite /> &nbsp;
-            {"Demo"}
+            <CgWebsite /> &nbsp; Demo
           </Button>
         )}
-        
       </Card.Body>
     </Card>
   );
 };
+
 export default ProjectCard;
