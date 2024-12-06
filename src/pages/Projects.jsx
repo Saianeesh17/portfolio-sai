@@ -46,6 +46,19 @@ const Projects = () => {
               videoPath2 = {soccerPlotterDesign}
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={spt}
+              isBlog={false}
+              title="Soccer Plotter - But Better (Assignment 3)"
+              description="This project aims to better the plotting device which plots the ball position during soccer-attacks using x,y coordinates of the ball. The user can select a video with a soccer attack, preferable with a top-down perspective and its progression (ball coordinates) will be displayed on the arduino. The parts for this project are 3d printed. More details including the circuit diagram and important links can be found on the github README file corresponding to the link below."
+              ghLink="https://github.com/Saianeesh17/Arduino_soccer_plotter_iteration/"
+              videoLink="https://drive.google.com/file/d/13KZqCGJv6sNX_QOltvupgqvwnA8k1vWY/view?usp=drive_link"
+              videoPath = {soccerPlotterVideo}
+              videoPath2 = {soccerPlotterDesign}
+            />
+          </Col>
+
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
