@@ -7,10 +7,12 @@ import project from "../assets/projects/project.jpeg";
 import lift from "../assets/projects/lift.png";
 import gvb from "../assets/GloveBoardImage.png";
 import spt from "../assets/soccerPlotterThumbnail.png";
+import sptIteration from "../assets/A3Mechanism.png";
 import krypto from "../assets/projects/krypto.png";
 import kickstart from "../assets/projects/kickstart.png";
 import soccerPlotterVideo from "../assets/IMG_4202.mp4";
 import soccerPlotterDesign from "../assets/IMG_4175.mp4";
+import soccerPlotterFullDemo from "../assets/Assignment3Demo.mp4"
 
 const Projects = () => {
   return (
@@ -48,13 +50,13 @@ const Projects = () => {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={spt}
+              imgPath={sptIteration}
               isBlog={false}
               title="Soccer Plotter - But Better (Assignment 3)"
               description="This project aims to better the plotting device which plots the ball position during soccer-attacks using x,y coordinates of the ball. The user can select a video with a soccer attack, preferable with a top-down perspective and its progression (ball coordinates) will be displayed on the arduino. The parts for this project are 3d printed. More details including the circuit diagram and important links can be found on the github README file corresponding to the link below."
               ghLink="https://github.com/Saianeesh17/Arduino_soccer_plotter_iteration/"
               videoLink="https://drive.google.com/file/d/13KZqCGJv6sNX_QOltvupgqvwnA8k1vWY/view?usp=drive_link"
-              videoPath = {soccerPlotterVideo}
+              videoPath = {soccerPlotterFullDemo}
               videoPath2 = {soccerPlotterDesign}
             />
           </Col>
